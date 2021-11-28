@@ -1,0 +1,32 @@
+/* =============================================================================
+                CSS    de las particulas
+   ========================================================================== */
+
+/* ---- Tamaño de las particulas ---- */
+.js-count-particles{
+  font-size: 11.1em;
+}
+
+
+
+/* ---- particles.js contenedor ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  /*background-color: #000;*/
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+ z-index: -200;
+ position: absolute;
+}
+
+.text-orange {
+  color: #fd7e14;
+}
+.bg-orange {
+  background-color: #fd7e14;
+}
+
