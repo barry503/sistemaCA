@@ -1,0 +1,2 @@
+Empiesan todas las tablas que
+puede editar el administrador.
