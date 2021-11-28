@@ -1,0 +1,185 @@
+
+
+		header {
+			height: 40px;
+			margin-top: 20px;
+			margin-bottom: 40px;
+			padding: 0px 5px 0;
+		}
+		header figure {
+			float: left;
+			width: 40px;
+			margin-right: 10px;
+		}
+		header figure img {
+			height: 40px;
+		}
+		header .company-info {
+			color: #BDB9B9;
+		}
+		header .company-info .title {
+			margin-bottom: 5px;
+			color: #343a40;
+			font-weight: 600;
+			font-size: 2em;
+		}
+		header .company-info .line {
+			display: inline-block;
+			height: 9px;
+			margin: 0 4px;
+			border-left: 1px solid #343a40;
+		}
+
+		section .details {
+			min-width: 500px;
+			margin-bottom: 40px;
+			padding: 10px 35px;
+			background-color: #343a40;
+			color: #ffffff;
+		}
+		section .details .client {
+			width: 50%;
+			line-height: 16px;
+		}
+		section .details .client .name {
+			font-weight: 600;
+		}
+		section .details .data {
+			width: 50%;
+			text-align: right;
+		}
+		section .details .title {
+			margin-bottom: 15px;
+			font-size: 3em;
+			font-weight: 400;
+			text-transform: uppercase;
+		}
+
+
+/*--------------------------------------------------------------------*/
+
+
+section table {
+  width: 100%;
+  margin-bottom: 20px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+section table .qty, section table .unit, section table .total {
+  width: 15%;
+}
+section table .desc {
+  width: 55%;
+}
+section table thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+section table thead th {
+  padding: 7px 10px;
+  //background: #66BDA9;
+    background: #343a40;
+  border-right: 5px solid #FFFFFF;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+section table thead th:last-child {
+  border-right: none;
+}
+section table tbody tr:first-child td {
+  border-top: 10px solid #ffffff;
+}
+section table tbody td {
+  padding: 10px 10px;
+  text-align: center;
+  border-right: 3px solid #343a40;
+}
+section table tbody td:last-child {
+  border-right: none;
+}
+section table tbody td.desc {
+  text-align: center;
+}
+section table tbody td.total {
+  color: #66BDA9;
+  font-weight: 600;
+  text-align: right;
+}
+section table tbody h3 {
+  margin-bottom: 5px;
+  color: #343a40;
+  font-weight: 600;
+}
+section table.grand-total {
+  margin-bottom: 50px;
+}
+section table.grand-total tbody tr td {
+  padding: 0px 10px 12px;
+  border: none;
+  background-color: #B2DDD4;
+  color: #555555;
+  font-weight: 300;
+  text-align: right;
+}
+section table.grand-total tbody tr:first-child td {
+  padding-top: 12px;
+}
+section table.grand-total tbody tr:last-child td {
+  background-color: transparent;
+}
+section table.grand-total tbody .grand-total {
+  padding: 0;
+}
+section table.grand-total tbody .grand-total div {
+  float: right;
+  padding: 11px 10px;
+  background-color: #66BDA9;
+  color: #ffffff;
+  font-weight: 600;
+}
+section table.grand-total tbody .grand-total div span {
+  display: inline-block;
+  margin-right: 20px;
+  width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/*---------------------------------------------------------------------------------*/
+		footer {
+			margin-bottom: 20px;
+			padding: 0 5px;
+		}
+		footer .thanks {
+			margin-bottom: 40px;
+			color: #343a40;
+			font-size: 1.16666666666667em;
+			font-weight: 600;
+		}
+		footer .notice {
+			margin-bottom: 25px;
+		}
+		footer .end {
+			padding-top: 5px;
+			border-top: 2px solid #343a40;
+			text-align: center;
+		}
